@@ -1,0 +1,55 @@
+# More particles by MartenM
+#==============================================================================
+
+#Enabling and disabling
+
+#General disable/enable of the walking particles
+enable walking particles: true
+#Disables walking particles in the words: (Example: - world_nether)
+disable wparticles in worlds:
+  - exampleworld
+  - exampleworld2
+# - world_nether
+
+#General disable/enable of the aura particles
+enable aura particles: true
+#Disables aura particles in the words: (Example: - world_nether)
+disable aparticles in worlds:
+  - exampleworld
+  - exampleworld2
+# - world_nether
+
+
+#General disable/enable of the mining particles
+enable mining particles: true
+#Disables mining particles in the words: (Example: - world_nether)
+disable mparticles in worlds:
+  - exampleworld
+  - exampleworld2
+# - world_nether
+
+#prefix for messages
+prefix: "&7[&bM&aP&7]"
+
+#==============================================================================
+#Messages:
+
+#Message send when not having enough permissions to do a certain action
+no permission: "&cYou do not have permission to use this."
+#Message send when not having enough permissions for a certain command
+no permission command: "&cYou do not have permission to use this command."
+
+#==============================================================================
+#User Interface:
+
+#Choose:
+#        no-permission    - Enchants the inaccessible particle effects
+#        permission       - Enchants the accessible particle effects
+#        disabled          - Does not enchant anything...
+enchanted items: "no-permission"
+
+#If enabled blank spots in the menu's will be filled with glass panes.
+fill: true
+#The byte that indicates the colour of the stained glass panes.
+fill id: 7
+ 
